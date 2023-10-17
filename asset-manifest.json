@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/avoca-do-list/static/css/main.acc8aa42.css",
+    "main.js": "/avoca-do-list/static/js/main.6529aaa0.js",
+    "static/js/787.c6613501.chunk.js": "/avoca-do-list/static/js/787.c6613501.chunk.js",
+    "static/media/check.png": "/avoca-do-list/static/media/check.e4c724f2ba3ec4fe6cd4.png",
+    "static/media/avocado.png": "/avoca-do-list/static/media/avocado.c875641519008b6671bb.png",
+    "static/media/remove.png": "/avoca-do-list/static/media/remove.3c662b752278fc52f408.png",
+    "static/media/plus.png": "/avoca-do-list/static/media/plus.94c8a526c03879287062.png",
+    "index.html": "/avoca-do-list/index.html",
+    "main.acc8aa42.css.map": "/avoca-do-list/static/css/main.acc8aa42.css.map",
+    "main.6529aaa0.js.map": "/avoca-do-list/static/js/main.6529aaa0.js.map",
+    "787.c6613501.chunk.js.map": "/avoca-do-list/static/js/787.c6613501.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acc8aa42.css",
+    "static/js/main.6529aaa0.js"
+  ]
+}
