@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.background{
+  display: flex;
+  flex-direction: column;
+  
+  margin: 50px auto;
+  border-radius: 10px;
+  min-height: 80vh;
+  width: 500px;
+  padding: 50px start;
+  background-image: linear-gradient(
+  250deg,
+  hsl(0deg 0% 100%) 0%,
+  hsl(55deg 100% 99%) 21%,
+  hsl(55deg 100% 99%) 30%,
+  hsl(56deg 100% 98%) 39%,
+  hsl(56deg 100% 98%) 46%,
+  hsl(56deg 100% 97%) 54%,
+  hsl(56deg 100% 96%) 61%,
+  hsl(56deg 100% 96%) 69%,
+  hsl(56deg 100% 95%) 79%,
+  hsl(56deg 100% 95%) 100%
+);
+}
+
+
+
+.container{
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avo{
+  margin-bottom: 10px;
+}
+
+.header{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 30px;
+  color:  #9e9e9e;
+}
+
+.doSpan{
+  font-size: 40px;
+  color:  rgb(0, 0, 39);
+  font-weight: 700;
+}
+
+.time-weekday{
+  background-color: #f6f6ff;
+  padding: 20px 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.time, .weekday{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+input{
+  padding: 8px 50px;
+  margin-bottom: 40px;
+  background-color: #f6f6ff;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+ul{
+  margin-bottom: 40px;
+}
+
+li{
+  font-size: 20px;
+  list-style: none;
+}
+
+.buttons{
+  display: flex;
+  gap: 50px
+}
+
+.cross{
+  color: #cfcfcf;
+  text-decoration: line-through 1px #f6f6ff;
+}
